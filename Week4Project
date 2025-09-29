@@ -1,1 +1,44 @@
+<!DOCTYPE html> 
+<!--Blaze Swieton, 9/28/2025-->
+<html lang="en"> 
+	<head>
+		<title>Cozy Cafe</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+		</head>
+		<body>
+            <header>
+                <h1>Welcome to Cozy Cafe</h1>
+            </header>
+            <p>Fresh Brews & Delicious Bites</p>
+            
+			<nav>
+            <a href="home.html"> <b>Home</b> </a> &nbsp; &nbsp;
+            <a href="menu.html"> <b>Menu</b> </a> &nbsp; &nbsp;
+            </nav>
 
+            <main>
+                <h2>About Us</h2>
+                <p>Cozy Cafe is a warm and inviting place where you can enjoy
+                     handcrafted drinks and freshly baked pastries. 
+                    Whether you're catching up with friends or 
+                    getting some work done, our cafe is the 
+                    perfect spot to relax.</p>
+                
+                    <h3>What We Offer:</h3>
+                    <ul>
+                        <li>Freshly brewed coffee & tea</li>
+                        <li>Delicious homemade pastries</li>
+                        <li>Comfortable seating & free Wi-Fi</li>
+                        <li>Friendly atmosphere</li>
+                    </ul>
+
+            </main>
+            <footer>
+            <small> &copy Cozy Cafe. All Rights Reserved. 
+            <br>
+            Contact:<a href="cafe@cozy.com"> cafe@cozy.com </a>
+            </small>
+            </footer>
+		</body>
+</html> <!--closing tag-->
