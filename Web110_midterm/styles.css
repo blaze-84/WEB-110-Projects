@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: ariel, helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    color: white;
+    background-color: #003399;
+    padding: 5%;   
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+header {
+    text-align: center;
+    padding: 2.5em 5%;
+    color: black;
+    border-radius: 0.9em 0.9em;
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.25em;
+    flex-wrap: wrap;
+    margin-bottom: 1.875em;
+    padding: 1.25em 5%;
+    background: white;
+    border-radius: 0 0.625em;
+   
+}
+
+nav a {
+     text-decoration: none;
+     color: #2563eb;
+     font-weight: 600;
+     font-size: 1.25em;
+     transition: all 0.3s ease;
+     border: 0.125em solid transparent;
+}
+
+nav a:hover {
+    background-color: black;
+    color: grey;
+}
+
+main {
+    background-color: grey;
+    padding: clamp(1.5rem, 4vw, 3rem);
+    border-radius: 0.9em;
+    
+}
+
+.img-container {
+    margin: 0 auto 1.875em;
+    width: 40%;
+    max-width: 15.625em;
+    display: block;
+    text-align: center;    
+}
+
+.img-container2 {
+    margin: 0 auto 1.875em;
+    width: 40%;
+    max-width: 15.625em;
+    display: block;
+    text-align: center;    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 50% 20%/10% 40%;
+}
+
+.intro-text {
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    margin: 2rem 0 2rem;
+    border: double;
+    border-color: black;
+    text-align: center;
+}
+
+h2:hover {
+    background-color: white;
+}
+
+ul {
+    margin: 1rem 0 1.5rem 1.5rem;
+    padding-left: 1rem;
+
+}
+
+li {
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+footer {
+    color: white;
+    
+}
+
+.unordered-list {
+    text-align: center;
+}
+
+.unordered-list ul {
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.unordered-list li {
+    text-align: center;
+}
+
+
+
+
+.Experience {
+    text-align: center;
+	border-right: 5px; 
+    border-color: black; 
+	padding: 2em;
+	margin: 0;
+			  
+}
+
+.more {
+    text-align: center;
+    border: solid black;
+}
